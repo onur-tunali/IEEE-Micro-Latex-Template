@@ -1,2 +1,3 @@
-# ieee_micro_latex_template
-A latex template for preparing manuscripts for IEEE Micro magazine
+# IEEE Micro Latex Template
+
+This template is configured according to official word template.

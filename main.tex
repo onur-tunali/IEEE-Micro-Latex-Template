@@ -1,0 +1,87 @@
+\documentclass[9pt]{ieeeMicro}
+\input{preamble}
+
+\title{Using the IEEE Computer Society Magazine Template}
+
+\begin{document}
+
+\ThisULCornerWallPaper{1}{micro_header.png}
+	
+\maketitle
+\thispagestyle{empty}	
+
+
+\begin{minipage}[t]{5cm}	
+
+\mdfsetup{%	
+		linecolor=white,
+		backgroundcolor=gray
+	}
+\begin{mdframed}[userdefinedwidth=0.9\textwidth,
+							 leftmargin=0cm,
+							 rightmargin=0.1cm,
+							 ]
+\small
+\textbf{Author 1 Name} \\	
+Author 1 Affiliation \\
+\vspace{4pt}
+\textbf{Author 2 Name} \\
+Author 2 Affiliation\\
+\vspace{4pt}
+\textbf{Editors (for departments/columns):}\\
+Editor 1 Name \\
+Affiliation \\
+Email \\
+\vspace{4pt}
+Editor 2 Name \\
+Affiliation \\
+Email \\
+
+
+\end{mdframed}
+\vspace{2pt}
+\end{minipage}%
+\begin{minipage}[t]{8cm}
+
+
+\begin{abstract}
+	
+	This section is the article abstract and should be no more than 50 words. Abstracts must not include mathematical expressions or bibliographic references. Please apply the “Abstract” style for this
+	paragraph.
+	
+\end{abstract}
+\vspace{2em}	
+
+This is the first paragraph of the Introduction—please apply the "INTRODUCTION" style using Microsoft Word’s "Styles" submenu (found in the “Home” menu). The introduction section of the article should be no more than five short paragraphs that quickly get to the article’s main point (without outlining the article). After the first paragraph, apply the “PARAGRAPH” style.do not use an “Introduction” section
+heading \cite{tunali2017survey}.
+
+\end{minipage} % First page ends here. 
+
+
+\input{intro}
+%\input{background}
+%\input{twolevel}
+%\input{multilevel}
+%\input{defect}
+\input{conclusion}
+
+\begin{acknowledgement}	
+	
+This work is part of a project that has received funding from the European Union’s H2020 re-search and innovation programme under the Marie Skodowska-Curie grant agreement No 691178. This work is supported by the TUBITAK-Career project \#113E760.	
+
+\end{acknowledgement}
+
+\bibliographystyle{ieeeMicro}
+\bibliography{bibliography}
+
+\begin{about}		
+	
+\textbf{Onur Tunali} received his BSc degree in mathematics at Istanbul University and MSc degree in Nanoscience and Nanoengineering at Istanbul Technical University. 
+
+\textbf{Muhammed Ceylan Morgul} received his BSc and MSc degrees in electronics engineering in 2014 and 2017 at Istanbul Technical University. 
+
+\textbf{Mustafa Altun} received his PhD degree in electrical engineering with a PhD minor in mathematics at the University of Minnesota in 2012. 
+
+\end{about}
+
+\end{document}
